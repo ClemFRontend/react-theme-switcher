@@ -1,0 +1,26 @@
+.switch-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.switch-container svg:first-child {
+    padding-right: 8px;
+}
+
+.switch-container svg:last-child {
+    padding-left: 8px;
+}
+
+.switch-container svg, .switch-container:hover {
+    cursor: pointer;
+}
+
+.switch-container svg {
+    translate: 0 2px;
+    transition: 0.1s;
+}
+
+.dark svg {
+    color: white;
+}
